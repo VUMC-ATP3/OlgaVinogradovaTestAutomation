@@ -21,7 +21,7 @@ public class CalculatorTest {
     @Test
     public void dalisanasTests(){
         Calculator calculator = new Calculator();
-        Assert.assertEquals(calculator.dalisana(8.2,2.0),4.1);
+        Assert.assertEquals(calculator.divide(8.2,2.0),4.1);
     }
 @BeforeClass
     public void beforeClass(){
@@ -39,6 +39,7 @@ public class CalculatorTest {
 //public void izpilditPirmsKatraTesta(){
 //    System.out.println("Izpildas before test.");
 //}
+
 
 
 }

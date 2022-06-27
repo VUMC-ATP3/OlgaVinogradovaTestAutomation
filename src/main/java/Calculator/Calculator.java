@@ -1,8 +1,7 @@
-package classroomSix;
+package Calculator;
 
 public class Calculator {
-
-    public int sum(int a,int b){
+    public int addition(int a,int b){
         return a + b;
     }
 
@@ -13,8 +12,9 @@ public class Calculator {
     public int multiply (int a, int b){
         return a*b;
     }
-public int substract (int a, int b){
+    public int substract (int a, int b){
         return a-b;
-}
+    }
 
 }
+
