@@ -5,6 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e93ec676-53ae-4522-ae73-d1530aec2408" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/elements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/Footer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/ProductsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/CartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/CheckoutOverviewPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/CheckoutPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/CheckoutSuccessPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/InventoryPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/classroomSeven/SwagLabsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumHomework/SauceDemoTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,70 +64,91 @@
       <recent name="classroomSix" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MavenTest">
-    <configuration name="MavenTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mavenTestNGHomework.MavenTest" />
+  <component name="RunManager" selected="TestNG.SauceDemoTests.testCheckoutInfoErrorMessageWOPostalCode">
+    <configuration name="SauceDemoTests.testCheckoutInfoErrorMessageWOFirstName" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="OlgaVinogradovaTestAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mavenTestNGHomework.*" />
+          <option name="PATTERN" value="seleniumHomework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="OlgaVinogradovaTestAutomation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="seleniumHomework" />
+      <option name="MAIN_CLASS_NAME" value="seleniumHomework.SauceDemoTests" />
+      <option name="METHOD_NAME" value="testCheckoutInfoErrorMessageWOFirstName" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstSeleniumTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SauceDemoTests.testCheckoutInfoErrorMessageWOLastName" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="OlgaVinogradovaTestAutomation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstSeleniumTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seleniumHomework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seleniumHomework" />
+      <option name="MAIN_CLASS_NAME" value="seleniumHomework.SauceDemoTests" />
+      <option name="METHOD_NAME" value="testCheckoutInfoErrorMessageWOLastName" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCalculatorHomeWork" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SauceDemoTests.testCheckoutInfoErrorMessageWOPostalCode" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="OlgaVinogradovaTestAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mavenTestNGHomework.*" />
+          <option name="PATTERN" value="seleniumHomework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mavenTestNGHomework" />
-      <option name="MAIN_CLASS_NAME" value="mavenTestNGHomework.TestCalculatorHomeWork" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="seleniumHomework" />
+      <option name="MAIN_CLASS_NAME" value="seleniumHomework.SauceDemoTests" />
+      <option name="METHOD_NAME" value="testCheckoutInfoErrorMessageWOPostalCode" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SauceDemoTests.testCheckoutOverview" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="OlgaVinogradovaTestAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mavenTestNGHomework.*" />
+          <option name="PATTERN" value="seleniumHomework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mavenTestNGHomework" />
-      <option name="MAIN_CLASS_NAME" value="mavenTestNGHomework.TestTitle" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="seleniumHomework" />
+      <option name="MAIN_CLASS_NAME" value="seleniumHomework.SauceDemoTests" />
+      <option name="METHOD_NAME" value="testCheckoutOverview" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SauceDemoTests.testCheckoutSuccessPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OlgaVinogradovaTestAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seleniumHomework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seleniumHomework" />
+      <option name="MAIN_CLASS_NAME" value="seleniumHomework.SauceDemoTests" />
+      <option name="METHOD_NAME" value="testCheckoutSuccessPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -124,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MavenTest" />
-        <item itemvalue="TestNG.TestTitle" />
-        <item itemvalue="TestNG.TestCalculatorHomeWork" />
-        <item itemvalue="TestNG.FirstSeleniumTest" />
-        <item itemvalue="TestNG.CalculatorTest" />
+        <item itemvalue="TestNG.SauceDemoTests.testCheckoutInfoErrorMessageWOPostalCode" />
+        <item itemvalue="TestNG.SauceDemoTests.testCheckoutInfoErrorMessageWOLastName" />
+        <item itemvalue="TestNG.SauceDemoTests.testCheckoutInfoErrorMessageWOFirstName" />
+        <item itemvalue="TestNG.SauceDemoTests.testCheckoutSuccessPage" />
+        <item itemvalue="TestNG.SauceDemoTests.testCheckoutOverview" />
       </list>
     </recent_temporary>
   </component>
@@ -153,5 +186,25 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/classroomSeven/SwagLabsTest.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/classroomSeven/SwagLabsTest.java</url>
+          <line>37</line>
+          <properties class="classroomSeven.SwagLabsTest" method="testErrorMessageWithoutPasswordPOM">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
