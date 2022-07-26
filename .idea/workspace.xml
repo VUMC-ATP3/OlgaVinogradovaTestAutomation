@@ -5,19 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e93ec676-53ae-4522-ae73-d1530aec2408" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/elements.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/Footer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/ProductsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/CartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/CheckoutOverviewPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/CheckoutPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/CheckoutSuccessPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/InventoryPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/classroomSeven/SwagLabsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumHomework/SauceDemoTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/acodemyShop/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/steps/MyStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/steps/SauceDemoHWDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/steps/SauceLabsTestDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/classroomEight/AcodemyShopTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/MyFirstCucumberTest.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/SauceDemoHomework.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/SauceLabsLogin.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/ScenarioOutlineExample.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,104 +62,113 @@
       <recent name="classroomSix" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SauceDemoTests.testCheckoutInfoErrorMessageWOPostalCode">
-    <configuration name="SauceDemoTests.testCheckoutInfoErrorMessageWOFirstName" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: User sees correct error message on the checkout page">
+    <configuration name="Feature: SauceDemoHomework" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/SauceDemoHomework.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="OlgaVinogradovaTestAutomation" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: SauceDemoHomework" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seleniumHomework.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seleniumHomework" />
-      <option name="MAIN_CLASS_NAME" value="seleniumHomework.SauceDemoTests" />
-      <option name="METHOD_NAME" value="testCheckoutInfoErrorMessageWOFirstName" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SauceDemoTests.testCheckoutInfoErrorMessageWOLastName" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: User is able to add product to cart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/SauceDemoHomework.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="OlgaVinogradovaTestAutomation" />
+      <option name="NAME_FILTER" value="^User is able to add product to cart$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User is able to add product to cart$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User is able to add product to cart" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seleniumHomework.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seleniumHomework" />
-      <option name="MAIN_CLASS_NAME" value="seleniumHomework.SauceDemoTests" />
-      <option name="METHOD_NAME" value="testCheckoutInfoErrorMessageWOLastName" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SauceDemoTests.testCheckoutInfoErrorMessageWOPostalCode" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: User is able to confirm purchase and press 'Back Home' button" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/SauceDemoHomework.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="OlgaVinogradovaTestAutomation" />
+      <option name="NAME_FILTER" value="^User is able to confirm purchase and press \'Back Home\' button$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User is able to confirm purchase and press \'Back Home\' button$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User is able to confirm purchase and press 'Back Home' button" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seleniumHomework.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seleniumHomework" />
-      <option name="MAIN_CLASS_NAME" value="seleniumHomework.SauceDemoTests" />
-      <option name="METHOD_NAME" value="testCheckoutInfoErrorMessageWOPostalCode" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SauceDemoTests.testCheckoutOverview" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: User is able to fill information on checkout page and check data on checkout overview" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/SauceDemoHomework.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="OlgaVinogradovaTestAutomation" />
+      <option name="NAME_FILTER" value="^User is able to fill information on checkout page and check data on checkout overview$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User is able to fill information on checkout page and check data on checkout overview$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User is able to fill information on checkout page and check data on checkout overview" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seleniumHomework.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seleniumHomework" />
-      <option name="MAIN_CLASS_NAME" value="seleniumHomework.SauceDemoTests" />
-      <option name="METHOD_NAME" value="testCheckoutOverview" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SauceDemoTests.testCheckoutSuccessPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: User sees correct error message on the checkout page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/SauceDemoHomework.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="OlgaVinogradovaTestAutomation" />
+      <option name="NAME_FILTER" value="^User sees correct error message on the checkout page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User sees correct error message on the checkout page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User sees correct error message on the checkout page" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seleniumHomework.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seleniumHomework" />
-      <option name="MAIN_CLASS_NAME" value="seleniumHomework.SauceDemoTests" />
-      <option name="METHOD_NAME" value="testCheckoutSuccessPage" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SauceDemoTests.testCheckoutInfoErrorMessageWOPostalCode" />
-        <item itemvalue="TestNG.SauceDemoTests.testCheckoutInfoErrorMessageWOLastName" />
-        <item itemvalue="TestNG.SauceDemoTests.testCheckoutInfoErrorMessageWOFirstName" />
-        <item itemvalue="TestNG.SauceDemoTests.testCheckoutSuccessPage" />
-        <item itemvalue="TestNG.SauceDemoTests.testCheckoutOverview" />
+        <item itemvalue="Cucumber Java.Scenario: User sees correct error message on the checkout page" />
+        <item itemvalue="Cucumber Java.Scenario: User is able to confirm purchase and press 'Back Home' button" />
+        <item itemvalue="Cucumber Java.Scenario: User is able to fill information on checkout page and check data on checkout overview" />
+        <item itemvalue="Cucumber Java.Scenario: User is able to add product to cart" />
+        <item itemvalue="Cucumber Java.Feature: SauceDemoHomework" />
       </list>
     </recent_temporary>
   </component>
